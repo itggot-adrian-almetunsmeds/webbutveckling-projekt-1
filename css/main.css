@@ -1,24 +1,28 @@
 .wrapper{
     display: grid;
-    grid-auto-columns: 4fr;
+    grid-row: 40px auto auto auto auto;
+    grid-column: 100%;
 }
 
 body{
     width: vw;
     height: vh;
     background-color: black;
-    font-family: fantasy;
+    font-family: Arial;
     
 }
 
 header{
-    text-align: center;
-    justify-content: center;
-    color: rgba(236, 240, 15, 0.705);
-    width: 90%;
-    height: 90%;
+    text-align: left;
+    justify-content: left;
+    color: blue;
 }
-
+header, h1, h2{
+    margin: 10px;
+}
+#index_header{
+    background-image: url(/img/magus_ehinger_main.jpg);
+}
 main{
     color: whitesmoke;
     display: flex;
