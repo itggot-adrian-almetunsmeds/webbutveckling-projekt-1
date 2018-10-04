@@ -2,12 +2,38 @@ body{
     width: vw;
     height: vh;
     background-color: black;
-    font-family: fantasy
+    font-family: fantasy;
     
 }
 
 header{
     text-align: center;
     justify-content: center;
-    color: whitesmoke
+    color: whitesmoke;
+}
+
+main{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+.top_left{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.top_middle{
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.top_right{
+    width: 40%;
+    display:flex;
+    justify-content: center;
 }
