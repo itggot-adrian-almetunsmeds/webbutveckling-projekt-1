@@ -1,5 +1,13 @@
 body{
     width: vw;
     height: vh;
-    background-color: aquamarine;
+    background-color: black;
+    font-family: fantasy
+    
+}
+
+header{
+    text-align: center;
+    justify-content: center;
+    color: whitesmoke
 }
