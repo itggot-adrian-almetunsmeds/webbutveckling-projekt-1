@@ -1,3 +1,8 @@
+.wrapper{
+    display: grid;
+    grid-auto-columns: 4fr;
+}
+
 body{
     width: vw;
     height: vh;
@@ -9,13 +14,28 @@ body{
 header{
     text-align: center;
     justify-content: center;
-    color: whitesmoke;
+    color: rgba(236, 240, 15, 0.705);
+    width: 90%;
+    height: 90%;
 }
 
 main{
     color: whitesmoke;
     display: flex;
     justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+ul{
+    display: flex;
+    justify-content: left;
+    align-items: right;
+}
+footer{
+    color: whitesmoke;
 }
 
 .top_left{
