@@ -1,54 +1,97 @@
-.wrapper{
+/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+                    /* GLOBAL */
+/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+.wrapper {
     display: grid;
     grid-row: 40px auto auto auto auto;
     grid-column: 100%;
 }
 
-body{
+body {
     width: vw;
     height: vh;
     background-color: black;
     font-family: Arial;
-    
+    margin: 0;
+
 }
 
-header{
+header {
     text-align: left;
     justify-content: left;
     color: blue;
 }
-header, h1, h2{
-    margin: 10px;
-}
-#index_header{
-    background-image: url(/img/magus_ehinger_main.jpg);
-}
-main{
+
+main {
     color: whitesmoke;
     display: flex;
     justify-content: center;
 }
-a{
+
+/* NAV BUTTONS */
+a {
     text-decoration: none;
     color: whitesmoke;
+    padding: 10px;
+    border-radius: 3px;
+    margin-right: 10px;
 }
 
-ul{
-    display: flex;
-    justify-content: left;
-    align-items: right;
+a:hover {
+    background-color: green;
 }
-footer{
+
+a:active {
+    background-color: blue;
+}
+
+nav {
+    background-color: rgb(46, 48, 51);
+}
+
+ul {
+    position: relative;
+    float: right;
+    padding-left: 0px;
+}
+/* FOOTER */
+footer {
+    background-color: rgb(46, 48, 51);
     color: whitesmoke;
 }
 
-.top_left{
+#footer_center, p {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: vw;
+    text-align: center;
+}
+
+/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+                    /* INDEX */
+/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+#index_header {
+    background-image: url(/img/magus_ehinger_main.jpg);
+    height: 720px;
+    width: vw;
+    background-repeat: no-repeat;
+}
+
+#index_header, h1 {
+    padding: 565px 10px 10px 50px;
+
+}
+
+/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+                    /* IMAGES */
+/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+.top_left {
     width: 40%;
     display: flex;
     justify-content: center;
 }
 
-.top_middle{
+.top_middle {
     margin-right: 10%;
     margin-left: 10%;
     width: 40%;
@@ -56,8 +99,16 @@ footer{
     justify-content: center;
 }
 
-.top_right{
+.top_right {
     width: 40%;
-    display:flex;
+    display: flex;
     justify-content: center;
 }
+/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+                    /* ABOUT */
+/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+
+
+/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+                    /* FEATURED */
+/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
