@@ -85,24 +85,12 @@ footer {
 /*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
                     /* IMAGES */
 /*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
-.top_left {
-    width: 40%;
+.featured_images{
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
 }
-
-.top_middle {
-    margin-right: 10%;
-    margin-left: 10%;
-    width: 40%;
-    display: flex;
-    justify-content: center;
-}
-
-.top_right {
-    width: 40%;
-    display: flex;
-    justify-content: center;
+.featured_images, img{
+    margin: 20px;
 }
 /*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
                     /* ABOUT */
