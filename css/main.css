@@ -90,10 +90,12 @@ footer {
     flex-wrap: wrap; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 } 
+
 .feature_images{
     width: 200px;
     margin: 4%;
 }
+
 p{
     color: whitesmoke;
 }
@@ -105,3 +107,11 @@ p{
 /*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
                     /* FEATURED */
 /*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+.featured_films{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* UNDER uteveckling FIXME: */
+.featured_films, iframe{
+    margin: 15px;
+}
