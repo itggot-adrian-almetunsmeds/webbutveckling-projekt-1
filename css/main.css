@@ -84,11 +84,12 @@ footer {
 /*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
                     /* IMAGES */
 /*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
-.featured_images{
-    display: flex;
-    flex-wrap: wrap;
-}
-.featured_images, img{
+.featured_image{
+    display: flex; 
+    flex-wrap: wrap; 
+} 
+.feature_images{
+    width: 200px;
     margin: 20px;
 }
 p{
