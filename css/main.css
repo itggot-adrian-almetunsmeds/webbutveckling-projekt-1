@@ -4,7 +4,7 @@
 .wrapper {
     display: grid;
     grid-row: 40px auto auto auto auto;
-    grid-column: 100%;
+    grid-column: 10vw;
 }
 
 body {
@@ -50,9 +50,11 @@ a:active {
 
 nav {
     background-color: rgb(46, 48, 51);
+    /* position: fixed; */
+    width: vw;
 }
 
-ul {
+nav, ul {
     position: relative;
     float: right;
     padding-left: 0px;
@@ -87,6 +89,7 @@ footer {
 .featured_image{
     display: flex; 
     flex-wrap: wrap; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 } 
 .feature_images{
     width: 200px;
