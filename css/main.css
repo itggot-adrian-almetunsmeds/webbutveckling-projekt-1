@@ -44,6 +44,9 @@ a:hover {
 a:active {
     background-color: blue;
 }
+.active{
+    background-color: green;
+}
 
 nav {
     background-color: rgb(46, 48, 51);
