@@ -19,7 +19,7 @@ body {
 header {
     text-align: left;
     justify-content: left;
-    color: blue;
+    color: green;
 }
 
 main {
@@ -78,11 +78,7 @@ footer {
     height: 720px;
     width: vw;
     background-repeat: no-repeat;
-}
-
-#index_header, h1 {
-    padding: 565px 10px 10px 50px;
-
+    opacity: 0.4;
 }
 
 /*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
