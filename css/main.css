@@ -47,6 +47,16 @@ a:active {
     background-color: green;
 }
 
+.films{
+    background-color: rgb(46, 48, 51);
+    border-top-width: 1px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-style: solid;
+    border-color: green;
+    width: vw;
+}
 nav {
     background-color: rgb(46, 48, 51);
     /* position: fixed; */
