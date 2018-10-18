@@ -124,7 +124,13 @@ p{
     display: flex;
     flex-wrap: wrap;
 }
-/* UNDER uteveckling FIXME: */
+
+ /* TODO: FIXME: NOW PLEASE THIS DOES NOT WORK */
+#wrapper_kemi{
+    background-attachment: fixed;
+    background-image: url(/img/magus_ehinger_main.png); 
+}
+
 .featured_films, iframe{
     margin: 15px;
 }
