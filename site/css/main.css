@@ -1,7 +1,7 @@
 /*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
                     /* GLOBAL */
 /*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
-.wrapper {
+#about_wrapper, #index_wrapper, #feature_wrapper, #images_wrapper, .wrapper_featured {
     display: grid;
     grid-row: 40px auto auto auto auto;
     grid-column: 10vw;
@@ -125,8 +125,17 @@ p{
     flex-wrap: wrap;
 }
 
+#feature_wrapper{
+    /* background-attachment: fixed; */
+    /* background-image: url(/img/magus_ehinger_main.png); */
+    /* height: 100vh; */
+    /* width: 100vw; */
+    background-color: white;
+    height: 100px;
+}
+
  /* TODO: FIXME: NOW PLEASE THIS DOES NOT WORK */
-#wrapper_kemi{
+.wrapper_fixed_background{
     background-attachment: fixed;
     background-image: url(/img/magus_ehinger_main.png); 
 }
