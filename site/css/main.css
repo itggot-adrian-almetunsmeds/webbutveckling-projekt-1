@@ -1,7 +1,7 @@
 /*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
                     /* GLOBAL */
 /*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
-#about_wrapper, #index_wrapper, #feature_wrapper, #images_wrapper, .wrapper_featured {
+#about_wrapper, #index_wrapper, #feature_wrapper, #images_wrapper{
     display: grid;
     grid-row: 40px auto auto auto auto;
     grid-column: 10vw;
@@ -9,7 +9,7 @@
 
 body {
     width: vw;
-    height: vh;
+    height: 100vh;
     background-color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
@@ -120,7 +120,13 @@ p{
 /*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
                     /* FEATURED */
 /*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
-.featured_films{
+.wrapper_featured{
+    display: grid;
+    grid-row: 40px 40px 100px auto auto ;
+    grid-column: 10vw;
+}
+
+.featured-films{
     display: flex;
     flex-wrap: wrap;
 }
