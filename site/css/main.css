@@ -72,6 +72,9 @@ nav, ul {
 footer {
     background-color: rgb(46, 48, 51);
     color: whitesmoke;
+    padding-top: 7px;
+    padding-bottom: 2px;
+
 }
 
 #footer_center, p {
